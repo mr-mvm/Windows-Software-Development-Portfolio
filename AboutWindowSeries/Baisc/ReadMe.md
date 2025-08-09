@@ -1,4 +1,4 @@
-# AboutWindowSeries — Basic
+# AboutWindowSeries (Basic)
 
 The **Basic** example is the first entry in the *AboutWindowSeries*, a set of example projects demonstrating different ways to implement "About" dialogs in Windows Forms applications.
 
