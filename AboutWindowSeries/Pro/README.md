@@ -137,4 +137,4 @@ You may use, modify, and distribute it without any restrictions.
 ---
 
 ## 9. Part of AboutWindowSeries. 
-This is **Example 3 — Pro Edition**.  It builds upon the **Enhanced** edition by integrating live API data retrieval.
+This is **Example 3: Pro Edition**.  It builds upon the **Enhanced** edition by integrating live API data retrieval.
