@@ -75,21 +75,21 @@ AboutWindowSeries/
 
 ## 5. Setting Up and Running the Example
 
-### Step 1 — Create a New WinForms Project
+### Step 1: Create a New WinForms Project
 ```bash
 dotnet new winforms -n AboutBasic
 ```
 
-### Step 2 — Install MaterialSkin
+### Step 2: Install MaterialSkin
 ```bash
 dotnet add package MaterialSkin.2
 ```
 
-### Step 3 — Replace the Default Files
+### Step 3: Replace the Default Files
 Copy the provided `Program.cs`, `AboutForm.cs`, and `AboutForm.Designer.cs` from this repository into your project.  
 These files will overwrite the default `Program.cs` and `Form1` files created by the template.
 
-### Step 4 — Build and Run
+### Step 4: Build and Run
 ```bash
 dotnet run
 ```
