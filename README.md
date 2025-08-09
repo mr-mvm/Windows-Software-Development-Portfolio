@@ -8,11 +8,11 @@ Showcasing a wide range of desktop application features, from UI concepts and wo
 ## 📂 Project Scope
 This repository serves as a central hub for multiple Windows app development series, including but not limited to:
 
-- **UI Concepts** – About windows, settings panels, MaterialSkin showcases.
-- **Licensing & Activation** – Trial systems, license keys, activation states.
-- **Multilingual Support** – Resource-based translation, live language switching.
-- **Reminders & Trackers** – Expiry dates, notifications, scheduling.
-- **And More** – As new ideas and series are added over time.
+- **UI Concepts**: About windows, settings panels, MaterialSkin showcases.
+- **Licensing & Activation**: Trial systems, license keys, activation states.
+- **Multilingual Support**: Resource-based translation, live language switching.
+- **Reminders & Trackers**: Expiry dates, notifications, scheduling.
+- **And More**: As new ideas and series are added over time.
 
 ---
 
