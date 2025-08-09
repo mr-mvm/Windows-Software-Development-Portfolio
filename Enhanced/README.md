@@ -45,7 +45,7 @@ The application contains:
      - A multiline text box for editing.  
      - A Save button.
 
-4. **ConfigManager.cs**  
+4. **EnhancedConfigManager.cs**  
    - Handles reading from and writing to a configuration file (`config.txt`).  
    - Provides methods to:
      - Read the file if it exists.
@@ -61,7 +61,7 @@ AboutWindowSeries/
      ├─ EnhancedProgram.cs            # Entry point: starts EnhancedAboutForm
      ├─ EnhancedAboutForm.cs          # Logic for the enhanced About window
      ├─ EnhancedAboutForm.Designer.cs # Auto-generated UI layout
-     ├─ ConfigManager.cs               # Handles reading/writing config file
+     ├─ EnhancedConfigManager.cs               # Handles reading/writing config file
 ```
 
 ---
@@ -84,7 +84,7 @@ dotnet new winforms -n AboutEnhanced
 ```
 
 ### Step 2: Replace the Default Files
-Copy the provided `EnhancedProgram.cs`, `EnhancedAboutForm.cs`, `EnhancedAboutForm.Designer.cs`, and `ConfigManager.cs` from this repository into your project.
+Copy the provided `EnhancedProgram.cs`, `EnhancedAboutForm.cs`, `EnhancedAboutForm.Designer.cs`, and `EnhancedConfigManager.cs` from this repository into your project.
 
 ### Step 3: Build and Run
 ```bash
@@ -109,7 +109,7 @@ lblInfo.Text = "Saved Information";
 ### Change the Configuration File Name
 Inside `EnhancedAboutForm.cs`:
 ```csharp
-configManager = new ConfigManager("config.txt");
+EnhancedconfigManager = new EnhancedConfigManager("config.txt");
 ```
 Change `"config.txt"` to another filename as needed.
 
@@ -118,11 +118,11 @@ Change `"config.txt"` to another filename as needed.
 ## 7. How Persistence Works
 
 When the form loads:
-1. The `ConfigManager.ReadConfig()` method checks if `config.txt` exists.
+1. The `EnhancedConfigManager.ReadConfig()` method checks if `config.txt` exists.
 2. If it exists, the file’s contents are displayed in `lblInfo`.
 
 When the Save button is clicked:
-1. The text from `txtInfo` is passed to `ConfigManager.WriteConfig()`.
+1. The text from `txtInfo` is passed to `EnhancedConfigManager.WriteConfig()`.
 2. The file is overwritten with the new data.
 3. The label is updated to show the new saved information.
 
