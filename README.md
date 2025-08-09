@@ -25,7 +25,7 @@ This repository serves as a central hub for multiple Windows app development ser
 ---
 
 ## 📜 License
-This project is licensed under the [MIT License](LICENSE) — you’re free to use and adapt the code with proper attribution.
+This project is licensed under the [MIT License](LICENSE). You’re free to use and adapt the code with proper attribution.
 
 ---
 
