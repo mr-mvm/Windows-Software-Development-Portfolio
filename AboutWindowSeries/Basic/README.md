@@ -150,8 +150,7 @@ You may use, modify, and distribute it without any restrictions.
 
 ## 9. Part of AboutWindowSeries
 
-This is **Example 1: Basic**.  
-Future examples will add:
+This is **Example 1: Basic**. Future examples will add:
 - Logos or icons
 - Hyperlinks
 - Rich text formatting
