@@ -1,5 +1,8 @@
-# Windows-Software-Development-Portfolio
-An ongoing collection of experiments, projects, and prototypes. The ingenuity, and artistry involved in creating contemporary Windows applications are highlighted by this growing collection, which showcases a broad range of desktop application features, from UI concepts and workflow simulations, functionality and architectural patterns.
+# Windows Software Development Portfolio
+
+**A living portfolio of Windows software development projects, experiments, and prototypes.**  
+Showcasing a wide range of desktop application features, from UI concepts and workflow simulations to advanced functionality and architectural patterns. This evolving collection highlights the process, creativity, and craftsmanship behind building modern Windows applications.
+
 ---
 
 ## 📂 Project Scope
